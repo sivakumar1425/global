@@ -22,3 +22,6 @@ Presentation slides and more can be found on the [shared folder](https://drive.g
 ## Setup and Environment
 
 TODO - Avi please fill this in
+
+## Other Developer Tools
+Beyond this bootcamp, Koii also supports a wide range of developer tools, which can be found in [the Koii Docs Portal](https://www.koii.network/docs/develop/onboarding/welcome-to-koii).
