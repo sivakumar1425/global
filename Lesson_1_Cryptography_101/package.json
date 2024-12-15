@@ -1,0 +1,20 @@
+{
+  "name": "lesson-1-crypto-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sign-and-verify.js",
+  "scripts": {
+    "sign-and-verify": "node sign-and-verify.js",
+    "encrypt-and-decrypt": "node encrypt-and-decrypt.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@_koii/namespace-wrapper": "^1.0.17",
+    "@_koii/web3.js": "^0.1.11",
+    "@solana/web3.js": "^1.95.8",
+    "ed2curve": "^0.3.0",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  }
+}
