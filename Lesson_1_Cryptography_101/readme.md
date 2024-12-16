@@ -25,6 +25,8 @@ yarn sign-and-verify
 
 Now, open the file `sign-and-verify.js` so you can see how it works.
 
+Try changing the `message` object by one character (i.e. remove the '!' from 'Hello World!') and run the file again. You can see that the signature changes completely, demonstrating how hashing is involved in the signature generation.
+
 #### Encrypt and Decrypt
 Another feature of cryptographic keys is the ability to encrypt and decrypt a message, which allows you to hide information from a third party. 
 
@@ -35,7 +37,9 @@ To run this script, you can type:
 yarn encrypt-and-decrypt
 ```
 
-Now, open the file `encrypt-and-decrypt.js` so you can see how it works.
+Now, open the file `encrypt-and-decrypt.js` so you can see how it works. 
+
+If you want to go a step deeper, take a look through `library/cryptography.js` and the supporting `node_modules/` packages and you can see the nuts and bolts hidden behind these nice and simple examples.
 
 #### Key Takeaways
 As you've now seen, it's very important that you keep your keys secure, otherwise someone can impersonate you online, or even drain all of your cryptocurrency from your wallets. 
