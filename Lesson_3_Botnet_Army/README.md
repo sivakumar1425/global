@@ -66,7 +66,7 @@ Just reading and regurgitating existing Tweets from BlueSky can get a bit boring
 
 One option is to include a Puppeteer window and crawl the web for more information. [Check out the Koii EZSandbox for some example code.](https://github.com/koii-network/ezsandbox/tree/main/Lesson%203)
 
-You can also implement the [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview) provides 100 search queries per day for free.
+You can also implement the [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview) which provides 100 search queries per day for free.
 
 Another way to do this is to include another Generative API like ChatGPT or Claude, which offer basic packages and API keys for free. 
 
