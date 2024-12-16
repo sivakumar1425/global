@@ -3,7 +3,7 @@ const { encrypt, decrypt, nonce } = require("./library/cryptography.js");
 const Keypair = require('@solana/web3.js').Keypair;
 
 // Set a message, we'll encrypt and decrypt this
-const message = "Hello World";
+const message = "Hello World!";
 
 // Generate two random key pairs
 const keypairA = Keypair.generate();

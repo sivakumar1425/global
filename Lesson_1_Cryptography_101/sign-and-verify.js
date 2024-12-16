@@ -14,7 +14,7 @@ const { decodeUTF8 } = require("tweetnacl-util");
 const sender = Keypair.generate();
 
 // define the message to be signed
-const message = "Hello world";
+const message = "Hello world!";
 const messageBytes = decodeUTF8(message);
 // we must convert it to a Uint8Array so that the math works for signing and verifying 
 
@@ -23,6 +23,8 @@ const signature = sign(
     messageBytes, // must be UINT8Array
     sender // must be a keypaid object
 );
+
+console.log('sig', signature)
 
 // verify the signature (remember, this is math, so the format of the objects is very important
 const result = verify(
