@@ -5,16 +5,13 @@ The Koii Global program is designed to onboard developers with minimal experienc
 The workshop series has four lessons, each designed to help build skills that will be used to build distributed apps on Cloud2. 
 
 ### 1. Cryptography 101
-Understand the  core cryptographic primatives that web3 is built on, and deploy your first token. 
+Understand the core cryptographic primatives that web3 is built on, and deploy your first token. 
 
 ### 2. Basic Distributed App Deployment
-Build your first app on Koii, a Low-Fi DOS Game!
+Build your first app on Koii, a Low-Fi DOS Game! This lesson will help you familiarize yourself with development on Cloud2, with a fun and easy first Koii Task. 
 
-### 3. Mechanism Design and Tokenized Payments
-Build a distributed web crawler and pay with your new token from Lesson 1, then deploy to thousands of Koii Nodes.
-
-### 4. Implementing Basic LLMs with Context on Cloud2
-
+### 3. GenAI, Mechanism Design, and Tokenized Payments
+Build a bot army and unleash them on Twitter Bluesky. Learn how to use Google Gemini and pay Koii Nodes in your own token to spread the word online. 
 
 ## Full Curriculum
 Presentation slides and more can be found on the [shared folder](https://drive.google.com/drive/folders/1vjSjouP6ydX4IcsQ6eRkFDnTKCldv1dH?usp=sharing).

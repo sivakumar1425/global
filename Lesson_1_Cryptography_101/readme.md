@@ -67,4 +67,6 @@ On unix, the wallet is located at home/< your username >/.config/KOII-Desktop-No
 Note: One 'hacky' way to find the correct path is to open your Koii Node GUI and click any task to 'open logs' which will help you find the node folder.
 
 ### Part IV: Create a Token
-Visit the 
+Visit the [Koii Token Minter](https://kpl.koii.network) and use the Key File from your node to mint a new token of your choice.
+
+In Lesson 3, we'll use this to hire an army of bots to help you make some noise online. 
