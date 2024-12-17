@@ -13,9 +13,6 @@ Build your first app on Koii, a Low-Fi DOS Game!
 ### 3. Mechanism Design and Tokenized Payments
 Build a distributed web crawler and pay with your new token from Lesson 1, then deploy to thousands of Koii Nodes.
 
-### 4. Implementing Basic LLMs with Context on Cloud2
-
-
 ## Full Curriculum
 Presentation slides and more can be found on the [shared folder](https://drive.google.com/drive/folders/1vjSjouP6ydX4IcsQ6eRkFDnTKCldv1dH?usp=sharing).
 
