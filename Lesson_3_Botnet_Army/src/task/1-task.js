@@ -1,5 +1,6 @@
 import { AtpAgent } from '@atproto/api';
 import * as dotenv from 'dotenv';
+import {generateComment} from '../gemini/index.js';
 import * as process from 'process';
 
 export async function task(roundNumber) {
@@ -84,17 +85,24 @@ export async function task(roundNumber) {
     const queryGemini = async (content, attitude) => {
       console.log(`\n>>> Simulating Gemini query with content: "${content}" and attitude: "${attitude}"...\n`);
       
-      // Simulated response logic
-      const responses = {
-        positive: "That's a wonderful thought! Here's a nice perspective to add.",
-        neutral: "This is something worth considering. Here's a balanced reply.",
-        negative: "I see the issue with this. Here's a critical response.",
-      };
+      let context = [
+        { blueSkyData: content,
+          replyStyle : { // Edit the lines below to customize how your bots behave
+            "attitude" : "rogue",
+            "tone" : "sarcastic",
+            "style" : "short",
+            "length" : "short",
+            "grammar" : "casual",
+            "format" : "paragraph"
+        }
+       }
+      ];
 
-      // Choose a response based on attitude, defaulting to neutral
-      const response = responses[attitude] || responses.neutral;
+      let apiKey = process.env.GEMINI_API_KEY;
 
-      return `${response} Original content was: "${content}".`;
+      let comment = await generateComment(context, apiKey);
+
+      return comment;
     };
 
 
@@ -150,7 +158,7 @@ export async function task(roundNumber) {
     // const hashtag =  await extractHashtags(latestPosts);
 
     // await repostWithThoughts(latestPost, "positive");
-    const geminiResponse = await queryGemini(latestPosts[1].content, "positive");
+    const geminiResponse = await queryGemini(latestPosts);
     console.log("\n>>> GEMINI RESPONSE: ", geminiResponse, "\n");
 
 
