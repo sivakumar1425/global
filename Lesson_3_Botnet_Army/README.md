@@ -17,10 +17,10 @@ Our army of bots will help to spread uplifting and positive messages of your cho
 
 
 ### BlueSky Integration
-You'll need to start by generating a Blue Sky API Key. An API Key is a token (a string of letters and numbers) that gives you special access to an online service. Think of it like a password.
-
 [Register your username and password by clicking here and signing up for an account](https://bsky.app/) 
+1. After registering, go to your settings > and verify email
 
+2. Update password from the settings
 
 ### Gemini Integration
 The Gemini module is managed in `src/gemini/` and features a basic implementation. 
