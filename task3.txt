@@ -1,0 +1,19 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class WriteFileExample {
+    public static void main(String[] args) {
+        try {
+            FileWriter writer = new FileWriter("output.txt");
+
+            writer.write("Hello World!\n");
+            writer.write("This is Java file writing example.\n");
+            writer.write("We are writing line by line.\n");
+
+            writer.close();
+            System.out.println("Successfully written to the file.");
+        } catch (IOException e) {
+            System.out.println("An error occurred.");
+        }
+    }
+}

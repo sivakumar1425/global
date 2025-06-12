@@ -1,0 +1,13 @@
+public class FloatDivideByZeroExample {
+    public static void main(String[] args) {
+        double a = 10;
+        double b = 0;
+
+        double result = a / b;
+        System.out.println("Result: " + result);
+
+        if (result == Double.POSITIVE_INFINITY) {
+            System.out.println("Cannot divide by zero (positive infinity).");
+        }
+    }
+}
